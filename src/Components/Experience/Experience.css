@@ -1,0 +1,116 @@
+@import "../../Vars.css";
+
+.exp-Container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.exp-title{
+    font-size: 35px;
+    color: var(--color-text);
+    letter-spacing: 1.75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.exp-Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+.exp-skills{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+
+}
+.skill-img-container{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+.skill-img-container img{
+    width: 75px;
+
+}
+.skill-img-container p{
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    
+}
+.exp-history{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.history-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    background: #19376d;
+    background: linear-gradient(90deg,#19376d 0%,rgba(25,25,109,0)100%);
+    border-radius: 10px ;
+    padding: 24px;
+
+}
+.exp-history-item img{
+    width: 50px;
+
+}
+.history-item-details{
+    font-family: var(--font-roboto) ;
+
+}
+.history-item-details h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.history-item-details p{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.history-item-details h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.history-item-details h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.history-item-details ul{
+    margin-top: 6px;
+    list-style-position: inside;
+    font-size: 25px;
+    list-style-type: disc;
+    margin-left: 17px;
+}
+@media screen and(max-width:830px) {
+    .exp-Content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+        
+    }
+    .exp-skils{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .exp-history{
+        width: 100%;
+        gap: 9px;
+    }
+}
