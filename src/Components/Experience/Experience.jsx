@@ -10,7 +10,7 @@ export const Experience = () => {
             <div className="exp-Content">
                 <div className="exp-skills">{skills.map((skill)=>
                 {return <div className="skill-img-container" key={skill.id}>
-                    <img src={`/assets/${skill.imageSrc}`} alt={skill.title}></img>
+                    <img src={`src/assets/${skill.imageSrc}`} alt={skill.title}></img>
                     <p>{skill.title}</p>
                     </div>
                     })}

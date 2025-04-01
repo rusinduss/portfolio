@@ -7,10 +7,10 @@ export const About = () => {
         <h3 className="abt-title">About</h3>
       </div>
       <div className="abt-content">
-        <img src="/assets/about/aboutImage.png" className="abt-img" />
+        <img src="src/assets/about/aboutImage.png" className="abt-img" />
         <div className="abt-description">
           <div className="front">
-            <img src="/assets/about/cursorIcon.png" />
+            <img src="src/assets/about/cursorIcon.png" />
             <div className="inner-dtl">
               <h3>FrontEnd Developer</h3>
               <p>Mostly involed in React based projects</p>
@@ -18,7 +18,7 @@ export const About = () => {
           </div>
 
           <div className="back">
-            <img src="/assets/about/serverIcon.png"></img>
+            <img src="src/assets/about/serverIcon.png"></img>
             <div className="inner-dtl">
               <h3>Backend Developer</h3>
               <p>Mostly involed in SpringBoot based projects</p>

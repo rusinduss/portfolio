@@ -5,7 +5,7 @@ export const ProjectCard = ({project:{title,description,imageSrc,skills,demo,sou
 }) => {
   return (
     <div className="project-container">
-                    <img className="project-image" src={`/assets/${imageSrc}`} alt={title}/>
+                    <img className="project-image" src={`src//assets/${imageSrc}`} alt={title}/>
                     <h3 className="project-title">{title}</h3>
                     <p className="project-description">{description}</p>
                 <ul className="project-skills">
