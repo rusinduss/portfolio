@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-import "./Navbar.css";
+import "./NavBar.css";
 
 export const NavBar = () => {
   const [menuopen, setMenuopen] = useState(false);
