@@ -1,22 +1,27 @@
 [
   {
+    "id": 1,
     "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "html.png"
   },
   {
+    "id": 2,
     "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "css.png"
   },
   {
+    "id": 3,
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "react.png"
   },
   {
+    "id": 4,
     "title": "Node",
-    "imageSrc": "skills/node.png"
+    "imageSrc": "node.png"
   },
   {
+    "id": 5,
     "title": "SpringBoot",
-    "imageSrc": "skills/Spring-Boot.png"
+    "imageSrc": "Spring-Boot.png"
   }
 ]

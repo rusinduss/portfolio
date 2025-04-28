@@ -1,7 +1,7 @@
 [
   {
     "title": "Movie App",
-    "imageSrc": "projects/Movieapp.png",
+    "imageSrc": "Movieapp.png",
     "description": "This is a project I developed individually",
     "skills": ["React", "Node"],
     "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Tourism page",
-    "imageSrc": "projects/CStours.png",
+    "imageSrc": "CStours.png",
     "description": "This is a project made to a client and still developing",
     "skills": ["React", "Node"],
     "demo": "https://www.example.com",
@@ -17,7 +17,7 @@
   },
   {
     "title": "CEB project",
-    "imageSrc": "projects/CEB.png",
+    "imageSrc": "CEB.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "SpringBoot", "Node"],
     "demo": "https://www.example.com",

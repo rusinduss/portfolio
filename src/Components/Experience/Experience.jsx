@@ -1,48 +1,71 @@
-import skills from "../../data/skills.json"
-import history from "../../data/history.json"
-import "./Experience.css"
+
+import skills from "../../data/skills.json";
+import history from "../../data/history.json";
+import "./Experience.css";
+
+// Import images directly (ensures they are bundled)
+import htmlImage from "../../assets/html.png";
+import cssImage from "../../assets/css.png";
+import reactImage from "../../assets/react.png";
+import nodeImage from "../../assets/node.png";
+import springBootImage from "../../assets/Spring-Boot.png";
+import googleImage from "../../assets/google.png";
+
+// Map image filenames to imports
+const skillImages = {
+  "html.png": htmlImage,
+  "css.png": cssImage,
+  "react.png": reactImage,
+  "node.png": nodeImage,
+  "Spring-Boot.png": springBootImage
+};
+
+const historyImages = {
+  "google.png": googleImage
+};
 
 export const Experience = () => {
   return (
     <section className="exp-Container" id="Experience">
-        <div className="exp-Experience">
-            <h2 className="exp-title">Experiences</h2>
-            <div className="exp-Content">
-                <div className="exp-skills">{skills.map((skill)=>
-                {return <div className="skill-img-container" key={skill.id}>
-                    <img src={`src/assets/${skill.imageSrc}`} alt={skill.title}></img>
-                    <p>{skill.title}</p>
-                    </div>
-                    })}
-                    </div>
-                    <div>
-                        
-                        <ul className="exp-history">
-                            {history.map((history)=>{
-                                return <li key={history.id} className="history-item">
-                                    <img src={`/assets/${history.imageSrc}`} alt={`${history.organisation} logo`}></img>
-                                    <div className="history-item-details">
-                                        <h3>{`${history.role},${history.organisation}`}</h3>
-                                        
-                                    <p>
-                                        {`${history.startDate}-${history.endDate}`}
-                                    </p>
-                                    <ul >
-                                        <p>{history.experiences.map((experience)=>{
-                                           return<li key={experience.id}>
-                                                        {experience}
-                                            </li>
-                                        })}</p>
-                                    </ul>
-                                    </div>
+      <div className="exp-Experience">
+        <h2 className="exp-title">Experiences</h2>
 
-                                </li>
-                            })}
-                        </ul>
-                    </div>
+        {/* Skills Section */}
+        <div className="exp-Content">
+          <div className="exp-skills">
+            {skills.map((skill) => (
+              <div className="skill-img-container" key={skill.id}>
+                <img src={skillImages[skill.imageSrc]} alt={skill.title} />
+                <p>{skill.title}</p>
+              </div>
+            ))}
+          </div>
 
-                </div>
+          {/* Work Experience Section */}
+          <div>
+            <ul className="exp-history">
+              {history.map((historyItem) => (
+                <li key={historyItem.id} className="history-item">
+                  <img
+                    src={historyImages[historyItem.imageSrc]}
+                    alt={`${historyItem.organisation} logo`}
+                  />
+                  <div className="history-item-details">
+                    <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                    <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                    <ul>
+                      {historyItem.experiences.map((experience, index) => (
+                        <li key={index}>{experience}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+
         </div>
+      </div>
     </section>
-  )
-}
+  );
+};

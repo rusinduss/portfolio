@@ -1,4 +1,5 @@
 import './Hero.css';
+import heroimg from "../../assets/heroImage.png"
 
 export const Hero = () => {
   return (
@@ -9,7 +10,7 @@ export const Hero = () => {
         <p className='description'>This is my portfolio Contact me if anyone interest</p>
         <a href='mailto:rusindunm@gmail.com' className='contactbtn'>Contact me</a>
         </div>
-        <img src='src/assets/hero/heroImage.png' className='heroImg'></img>
+        <img src={heroimg} className='heroImg'></img>
         
     </div>
     <div className='topblur'/>

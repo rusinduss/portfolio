@@ -1,10 +1,14 @@
 [
   {
+    "id": 1,
     "role": "Software Engineer intern",
-    "organisation": "Ceyloan Electricity Board",
+    "organisation": "Ceylon Electricity Board",
     "startDate": "Oct, 2024",
     "endDate": "Present",
-    "experiences": ["Worked on developing SPS system for staff use", "worked on developing New connections applications dashboard for customers"],
-    "imageSrc": "history/google.png"
+    "experiences": [
+      "Worked on developing SPS system for staff use",
+      "Worked on developing New connections applications dashboard for customers"
+    ],
+    "imageSrc": "google.png"
   }
 ]
