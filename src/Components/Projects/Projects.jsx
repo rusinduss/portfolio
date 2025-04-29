@@ -1,6 +1,7 @@
 import projects from "../../data/projects.json"
 import { ProjectCard } from "./ProjectCard"
 import "./Projects.css"
+
 export const Projects = () => {
   return (
     <section className="project-container1" id="project">
