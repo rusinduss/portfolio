@@ -18,7 +18,7 @@
   {
     "title": "CEB project",
     "imageSrc": "CEB.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This is a project developed for CEB for customer usage",
     "skills": ["React", "SpringBoot", "Node"],
     "demo": "https://www.example.com",
     "source": "https://github.com/rusinduss/notus-react-main.git"

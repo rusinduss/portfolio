@@ -10,7 +10,7 @@ const projectImages = {
   "CEB.png": CEB
 };
 
-export const ProjectCard = ({ project: { title, description, imageSrc, skills, demo, source } }) => {
+export const ProjectCard = ({ project: { title, description, imageSrc, skills, source } }) => {
   return (
     <div className="project-container">
       <img className="project-image" src={projectImages[imageSrc]} alt={title} />
@@ -22,7 +22,7 @@ export const ProjectCard = ({ project: { title, description, imageSrc, skills, d
         ))}
       </ul>
       <div className="project-links">
-        <a className="project-link" href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
+        {/* <a className="project-link" href={demo} target="_blank" rel="noopener noreferrer">Demo</a> */}
         <a className="project-link" href={source} target="_blank" rel="noopener noreferrer">Source</a>
       </div>
     </div>
