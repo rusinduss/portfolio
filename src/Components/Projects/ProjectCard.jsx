@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import "./ProjectCard.css";
-import Cstours from "../../assets/Cstours.png";
+import CStours from "../../assets/CStours.png";
 import Movieapp from "../../assets/Movieapp.png";
 import CEB from "../../assets/CEB.png";
 
 const projectImages = {
   "Movieapp.png": Movieapp,
-  "CStours.png": Cstours,
+  "CStours.png": CStours,
   "CEB.png": CEB
 };
 
