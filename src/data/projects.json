@@ -22,5 +22,21 @@
     "skills": ["React", "SpringBoot", "Node"],
     "demo": "https://www.example.com",
     "source": "https://github.com/rusinduss/notus-react-main.git"
+  },
+    {
+    "title": "FullStack project",
+    "imageSrc": "FullStack.png",
+    "description": "This is a fullstack project to add users,edit users, view users",
+    "skills": ["React", "SpringBoot", "Node","mySql"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/rusinduss/FullStackApp.git"
+  }, 
+     {
+    "title": "AtDigital project",
+    "imageSrc": "AtDigital.png",
+    "description": "This is a project developed for a task given by AtDitial company",
+    "skills": ["React", "SpringBoot", "Node"],
+    "demo": "https://atdigitaltaskk.netlify.app/",
+    "source": "https://github.com/rusinduss/FullStackApp.git"
   }
 ]
